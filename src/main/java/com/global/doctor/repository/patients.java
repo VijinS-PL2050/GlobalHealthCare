@@ -4,6 +4,6 @@ public class patients {
 	
 	private int name;
 	private int age;
-	private String gyfddfgh;
+	
 
 }
