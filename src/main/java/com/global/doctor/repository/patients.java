@@ -3,6 +3,7 @@ package com.global.doctor.repository;
 public class patients {
 	
 	private int name;
-	privaye int age;
+	private int age;
+	private String gyfddfgh;
 
 }
