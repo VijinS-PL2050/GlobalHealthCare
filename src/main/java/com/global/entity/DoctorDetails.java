@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class DoctorDetails {
 
-	//
+	
 	private int id;
 	private String doctorid;
 	private String doctorname;
