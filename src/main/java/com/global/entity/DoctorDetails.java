@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 public class DoctorDetails {
 
+	
 	private int id;
 	private String doctorid;
 	private String doctorname;
@@ -134,15 +135,6 @@ public class DoctorDetails {
 
 	public void setIsActive(String isActive) {
 		IsActive = isActive;
-	}
-
-	@Override
-	public String toString() {
-		return "DoctorDetails [id=" + id + ", doctorid=" + doctorid + ", doctorname=" + doctorname + ", dateofbirth="
-				+ dateofbirth + ", gender=" + gender + ", bloodgroup=" + bloodgroup + ", phoneno=" + phoneno
-				+ ", address=" + address + ", adharNo=" + adharNo + ", qualification=" + qualification + ", email="
-				+ email + ", specialization=" + specialization + ", consultancyfee=" + consultancyfee + ", IsActive="
-				+ IsActive + "]";
 	}
 
 	
