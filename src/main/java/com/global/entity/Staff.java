@@ -7,7 +7,7 @@ public class Staff {
 	private int id;
 	private String staffid;
 	private String staffname;
-	//relation to usertable(userid foreign key)
+	//relation to usertable(userid foreign key.)
 	private String userId;
 	private LocalDate dateofbirth;
 	private String gender;
