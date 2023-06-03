@@ -7,6 +7,7 @@ public class Dosage {
 	
 	private int dosageId;
 	private String dosage;
+	private String isActive;
 	
 	
 
