@@ -2,6 +2,8 @@ package com.global.entity;
 
 import javax.persistence.Entity;
 
+//This is the dosage Parent table
+
 @Entity
 public class Dosage {
 	

@@ -1,15 +1,19 @@
 package com.global.entity;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 import javax.persistence.Entity;
+
+//here appointmant id is foreignkey
+
 @Entity
-public class patientPrescriptions {
+public class Diagnosis {
 	
-	private int prescriptionId;
+	private int diagnosisId;
 	private String diagnosis;
 	private String notes;
 	private int appointmentId;
-	private Date prescriptionDate;
+	private LocalDate diagnosisDate;
 
 }
