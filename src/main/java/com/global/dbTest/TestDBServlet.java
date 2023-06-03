@@ -29,7 +29,7 @@ public class TestDBServlet extends HttpServlet {
 
 
 		String user="root";
-		String password="Gokul";
+		String password="faith";
 		String jdbcUrl="jdbc:mysql://localhost:3306/global_health_care?serverTimezone=UTC";
 		String driver="com.mysql.cj.jdbc.Driver";
 		
