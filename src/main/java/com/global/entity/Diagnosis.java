@@ -15,5 +15,6 @@ public class Diagnosis {
 	private String notes;
 	private int appointmentId;
 	private LocalDate diagnosisDate;
+	/*ijkj*/
 
 }

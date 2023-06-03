@@ -5,7 +5,7 @@ import java.util.Date;
 
 import javax.persistence.Entity;
 
-//Here appointmentid is a foreign key to appointment table
+//Here diagnosisId is a foreign key to diagnosis table
 //test id is foreignkey to tests table.
 
 @Entity
@@ -13,7 +13,7 @@ public class test_prescription {
 	
 	private int testPrescriptionId;
 	private int testId;
-	private int appointmentId;
+	private int diagnosisId;
 	private LocalDate testDay;
 	
 

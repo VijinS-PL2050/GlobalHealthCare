@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 
 //HERE medicine id is foreign key to medicine table.....shalini undakeela
 //dosage id is foreignkey to dosagetable...
-//Here appointmentid is a foreign key to appointment table
+//Here diagnosisId is a foreign key to diagnosis table
 
 
 @Entity
@@ -18,7 +18,7 @@ public class medicine_prescription {
 	private int medicineId;
 	private int dosageId;
 	private int noOfDay;
-	private int appoinmentId;
+	private int diagnosisId;
 	private LocalDate medicinePrescriptionDate;
 
 }
